@@ -1,0 +1,43 @@
+
+打开文件夹
+	文件>打开文件夹（Ctrl+K Ctrl+O)
+文件资源管理器
+	查看>资源管理器（Ctrl+Shift+E)
+搜索视图
+	查看>搜索（Ctrl+Shift+F)
+源代码管理
+	查看源代码管理> （SCM） （Ctrl+Shift+G)
+运行和调试
+	查看>运行（Ctrl+Shift+D)
+扩展视图
+	查看>扩展（Ctrl+Shift+X)
+打开命令面板。
+	查看命令面板>（Ctrl+Shift+P)
+“输出”面板
+	查看>输出（Ctrl+Shift+U)
+调试控制台
+	查看>调试控制台（Ctrl+Shift+Y)
+“问题”面板
+	查看>问题（Ctrl+Shift+M)
+集成终端
+	查看>终端（Ctrl+')
+创建新文件
+	文件>新文件 （Ctrl+N)
+保存文件
+	文件>保存 （Ctrl+S)
+自动保存
+	文件>自动保存
+跑
+	运行>启动调试 （F5)
+编程语言扩展
+	Python - 智能感知、linting、debuging、code formating、重构等。
+实时预览 - 托管本地服务器以预览网页。
+缩放
+	缩小（按 Ctrl+-)
+	放大 （Ctrl+=)
+使用颜色主题自定义编辑器。
+	颜色主题>文件>首选项（Ctrl+K Ctrl+T)
+并行编辑
+	ctrl+\
+自定义快捷方式：
+	ctrl+k
