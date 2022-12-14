@@ -18,7 +18,7 @@ while(True):
         width = x+w
         height = y+h
         strok=2
-        color=(255,0,0)
+        color=(0,0,255)
         cv2.rectangle(img,(x,y),(width,height),color,strok)
 
 
@@ -27,4 +27,5 @@ while(True):
         break
 
 cap.release()
+cv2.waitKey(3000) 
 cv2.destroyAllWindows()
