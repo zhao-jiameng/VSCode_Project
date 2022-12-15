@@ -13,5 +13,5 @@ while(True):                    #无限抓怕人脸
     if index==32:           #空格
         print("窗口即将关闭")
         break
-
+    pass
 cv2.destroyAllWindows()

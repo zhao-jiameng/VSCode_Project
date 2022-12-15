@@ -28,13 +28,14 @@ ranf=rdm.uniform(5,9)
 print(ranf)
 cho=rdm.choice("我爱你祖国")
 print(cho)
-list=rdm.choice(["你","我","他"])
+list=rdm.choice(["你","我","他"])[0]
 print(list)
-
+list2=rdm.choice(["你","我","他"])
+print(list2)
 #循环
 for i in range(10,2):
     print(i)
-
+pass
 
 
 

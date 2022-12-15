@@ -11,7 +11,7 @@ while(True):                    #无限抓怕人脸
         cv2.rectangle(videoImg,pt1=(x,y),pt2=(x+w,y+h),color=[0,0,255],thickness=3)
         if not isinstance(faces,tuple):
             facePhoto=videoImg[y:y+h,x:x+w]     #人脸切片
-            cv2.imwrite("./photo/0/%s.jpg"%name,facePhoto)
+            cv2.imwrite("./photo/4/%s.jpg"%name,facePhoto)
             print("第%s张人脸数据保存成功"%name)
             name+=1
     cv2.imshow("捕获",videoImg)
@@ -19,5 +19,5 @@ while(True):                    #无限抓怕人脸
     if index==32:           #空格
         print("窗口即将关闭")
         break
-
+    pass
 cv2.destroyAllWindows()
